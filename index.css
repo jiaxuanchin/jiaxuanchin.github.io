@@ -6,7 +6,9 @@ img {
     height: 400px;
 }
 p {
-    border: solid 2px red;
+    border: solid 2px #DB86FD;
+    padding: 10px 10px;
+    text-align: justify;
 }
 a, u {
     color: blue;
