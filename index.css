@@ -1,3 +1,6 @@
+body {
+    background-color: #F8F8F8;
+}
 .intro {
     background-image: linear-gradient(to bottom right, #C46DE7, #37C4F1);
     color: white;
