@@ -8,7 +8,7 @@ img {
     width: 300px;
     height: 400px;
     border-radius: 10%;
-    text-align: center;
+    margin: auto;
 }
 p {
     border: solid 2px #C46DE7;
@@ -17,4 +17,8 @@ p {
 }
 a, u {
     color: blue;
+}
+iframe {
+    width: 560px;
+    height: 315px;
 }
