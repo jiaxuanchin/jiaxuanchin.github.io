@@ -1,5 +1,8 @@
 .intro {
-    background-color: #BCEEFF;
+    background-image: linear-gradient(to bottom right, #DB86FD, #64D9FF);
+    color: white;
+    text-align: center;
+    height: auto
 }
 img {
     width: 300px;
