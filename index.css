@@ -1,5 +1,5 @@
 .intro {
-    background-image: linear-gradient(to bottom right, #DB86FD, #64D9FF);
+    background-image: linear-gradient(to bottom right, #C46DE7, #37C4F1);
     color: white;
     text-align: center;
     height: auto
@@ -7,9 +7,11 @@
 img {
     width: 300px;
     height: 400px;
+    border-radius: 10%;
+    text-align: center;
 }
 p {
-    border: solid 2px #DB86FD;
+    border: solid 2px #C46DE7;
     padding: 10px 10px;
     text-align: justify;
 }
