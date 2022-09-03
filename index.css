@@ -1,0 +1,16 @@
+
+.intro {
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #BCEEFF;
+}
+img {
+    width: 300px;
+    height: 400px;
+}
+p {
+    border: solid 2px red;
+}
+a, u {
+    color: blue;
+}
