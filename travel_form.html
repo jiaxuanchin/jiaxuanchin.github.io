@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<head>
+
+    <!-- Add code here -->
+    <title>Let's Travel Together!</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <style>
+        body {  
+            background: linear-gradient(to right, #C46DE7, #3077b8); 
+        }
+        .title {
+            background-color: gainsboro;
+            text-align: center;
+            padding: 80px;
+        }
+        form{
+            padding: 10px;
+        }
+        input {
+            width: 100%;
+        }
+        .b {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+   <!-- Add code here -->
+    <div class="container col-md-6 title">
+        <h1>Sign Up</h1>
+        <h3>Please provide your name, email and password!</h3>
+    </div>
+    <div class="container col-md-6">
+        <form method="post" action="travel_form.html">
+            Name<br>
+            <input type="text" class="form-control" name="name" placeholder="Name"><br>
+            Relation to Jia Xuan <br>
+            <input class="form-check-input" type="radio" name="friend" id="friend" checked>
+            <label class="form-check-label" for="friend">
+                Friend
+            </label>
+            <input class="form-check-input" type="radio" name="family" id="family">
+            <label class="form-check-label" for="family">
+                Family
+            </label>
+            <br>
+            Where do you want to go?<br>
+            <input class="form-check-input" type="checkbox" value="Switzerland" id="Swit">
+            <label class="form-check-label" for="Swit">
+                Switzerland
+            </label>
+
+            <input class="form-check-input" type="checkbox" value="Sweden" id="Swed">
+            <label class="form-check-label" for="Swed">
+                Swed
+            </label>
+
+            <input class="form-check-input" type="checkbox" value="Korea" id="SK">
+            <label class="form-check-label" for="SK">
+                South Korea
+            </label>
+
+            <input class="form-check-input" type="checkbox" value="SG" id="SG">
+            <label class="form-check-label" for="SG">
+                Just meet up in Singapore.
+            </label>
+            
+            <div class="b">
+                <button type="submit" class="btn btn-light">Submit</button>
+            </div>
+        </form>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
