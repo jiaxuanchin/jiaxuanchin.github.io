@@ -10,7 +10,7 @@
 
     <style>
         body {  
-            background: linear-gradient(to right, #C46DE7, #3077b8); 
+            background: linear-gradient(to right, #de8cfe, #4d9eeb); 
         }
         .title {
             background-color: gainsboro;
@@ -32,44 +32,50 @@
 
    <!-- Add code here -->
     <div class="container col-md-6 title">
-        <h1>Sign Up</h1>
-        <h3>Please provide your name, email and password!</h3>
+        <h1>Travel Plans</h1>
+        <h3>Please provide your name, relation and where you wanna go!</h3>
     </div>
     <div class="container col-md-6">
         <form method="post" action="travel_form.html">
             Name<br>
             <input type="text" class="form-control" name="name" placeholder="Name"><br>
             Relation to Jia Xuan <br>
-            <input class="form-check-input" type="radio" name="friend" id="friend" checked>
-            <label class="form-check-label" for="friend">
-                Friend
-            </label>
-            <input class="form-check-input" type="radio" name="family" id="family">
-            <label class="form-check-label" for="family">
-                Family
-            </label>
+            <div class="alert alert-light" role="alert">
+                <input class="form-check-input" type="radio" name="friend" id="friend" checked>
+                <label class="form-check-label" for="friend">
+                    Friend
+                </label><br>
+
+                <input class="form-check-input" type="radio" name="family" id="family">
+                <label class="form-check-label" for="family">
+                    Family
+                </label>
+            </div>
             <br>
+
             Where do you want to go?<br>
-            <input class="form-check-input" type="checkbox" value="Switzerland" id="Swit">
-            <label class="form-check-label" for="Swit">
-                Switzerland
-            </label>
-
-            <input class="form-check-input" type="checkbox" value="Sweden" id="Swed">
-            <label class="form-check-label" for="Swed">
-                Swed
-            </label>
-
-            <input class="form-check-input" type="checkbox" value="Korea" id="SK">
-            <label class="form-check-label" for="SK">
-                South Korea
-            </label>
-
-            <input class="form-check-input" type="checkbox" value="SG" id="SG">
-            <label class="form-check-label" for="SG">
-                Just meet up in Singapore.
-            </label>
-            
+            <div class="alert alert-light" role="alert">
+                <input class="form-check-input" type="checkbox" value="Switzerland" id="Swit">
+                <label class="form-check-label" for="Swit">
+                    Switzerland
+                </label>
+                <br>
+                <input class="form-check-input" type="checkbox" value="Sweden" id="Swed">
+                <label class="form-check-label" for="Swed">
+                    Swed
+                </label>
+                <br>
+                <input class="form-check-input" type="checkbox" value="Korea" id="SK">
+                <label class="form-check-label" for="SK">
+                    South Korea
+                </label>
+                <br>
+                <input class="form-check-input" type="checkbox" value="SG" id="SG">
+                <label class="form-check-label" for="SG">
+                    Just meet up in Singapore
+                </label>
+            </div>
+            <br>
             <div class="b">
                 <button type="submit" class="btn btn-light">Submit</button>
             </div>
