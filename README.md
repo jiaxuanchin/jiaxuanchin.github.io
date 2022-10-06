@@ -13,3 +13,6 @@
 
 <h4>14 Sept 2022</h4>
 <p>Implemented some Bootstrap to make my website even nicer. Added a target='_blank' for when users click on my LinkedIn or Instagram page. New form created for users to sign up to travel with me. Tried fixing autoplay and mute video issues, but I couldn't.</p>
+
+<h4>6 Oct 2022</h4>
+<p>Made massive changes, such as creating a navigation bar, moving my intro into an accordion, and creating new pages. I added a 'travel.html', 'sailing.html' and 'others.html', though I still havent thought of what to put in. Used javascript to create a constantly updating clock, which changes background based on the time of the day.</p>
