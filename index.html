@@ -99,9 +99,21 @@
     <script>
       function updateTime() {
         let today = new Date();
-        let time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+        let sec = ''
+        let min = ''
+        let hour = ''
+        if (today.getSeconds()<10) {
+          sec = '0'
+        }
+        if (today.getMinutes()<10) {
+          let min = '0'
+        }
+        if (today.getHours()<10) {
+          let hour = '0'
+        }
+        let time = hour + today.getHours() + ":" + min + today.getMinutes() + ":" + sec + today.getSeconds()
         console.log(time)
-        let div = document.getElementById("time")
+        let div = document.getElementById("time1")
         div.textContent = time
 
         let c = div.getAttribute('class')
