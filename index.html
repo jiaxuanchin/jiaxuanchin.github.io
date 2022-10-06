@@ -106,31 +106,34 @@
           sec = '0'
         }
         if (today.getMinutes()<10) {
-          let min = '0'
+          min = '0'
         }
         if (today.getHours()<10) {
-          let hour = '0'
+          hour = '0'
         }
         let time = hour + today.getHours() + ":" + min + today.getMinutes() + ":" + sec + today.getSeconds()
-        console.log(time)
+        console.log(today.getMinutes())
         let div = document.getElementById("time")
         div.textContent = time
 
         let c = div.getAttribute('class')
+        c = c.slice(0, 27)
+        
+        div.setAttribute('class', c)
 
-        if (today.getHours()<12 && today.getHours() >=6 && c.length ==27) {
+        if (today.getHours()<12 && today.getHours() >=6) {
           c = c + ' morning'
           div.setAttribute('class', c)
         }
-        else if (today.getHours() <= 18 && c.length ==27) {
+        else if (today.getHours() <= 18 && today.getHours() >=12) {
           c = c + ' afternoon'
           div.setAttribute('class', c)
         }
-        else if (today.getHours() <= 20 && c.length ==27) {
+        else if (today.getHours() <= 20 && today.getHours() >=18) {
           c = c + ' evening'
           div.setAttribute('class', c)
         }
-        else if (today.getHours() >= 20 && c.length ==27) {
+        else {
           c = c + ' night'
           div.setAttribute('class', c)
         }
