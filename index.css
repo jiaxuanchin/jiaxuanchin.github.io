@@ -1,14 +1,10 @@
-body {
-    background-color: #F8F8F8;
-}
 .intro {
-    background-image: linear-gradient(to bottom right, #C46DE7, #37C4F1);
     color: white;
     text-align: center;
     height: auto;
-    padding: 10px;
     margin: 0;
     border-radius: 15px;
+    font-size: 100px;
 }
 img {
     width: 300px;
