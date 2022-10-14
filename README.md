@@ -15,4 +15,8 @@
 <p>Implemented some Bootstrap to make my website even nicer. Added a target='_blank' for when users click on my LinkedIn or Instagram page. New form created for users to sign up to travel with me. Tried fixing autoplay and mute video issues, but I couldn't.</p>
 
 <h4>6 Oct 2022</h4>
-<p>Made massive changes, such as creating a navigation bar, moving my intro into an accordion, and creating new pages. I added a 'travel.html', 'sailing.html' and 'others.html', though I still havent thought of what to put in. Used javascript to create a constantly updating clock, which changes background based on the time of the day.</p>
+<p>Update: managed to fix the autoplay at mute for youtube video</p>
+<p>Made massive changes, such as creating a navigation bar, moving my intro into an accordion, and creating new pages. I added a 'travel.html', 'sailing.html' and 'others.html', though I still havent thought of what to put in. Used javascript to create a constantly updating clock, which changes background based on the time of the day. (8.30pm- 7 Oct 12.30am)</p>
+
+<h4>14 Oct 2022</h4>
+<p>Made massive changes, again. Added magic 8 ball to others.html. Copied the css of how to create the 8 ball, however I typed out all the javascript codes from scratch. Redid the background of all pages to make it look nicer. (2.45pm-5.15pm)</p>
